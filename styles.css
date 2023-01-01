@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
+h1 {
+    font-size: 1.5rem;
+}
+
 .attribution {
-    font-size: 11px;
+    font-size: .75rem;
     text-align: center;
 }
 
@@ -30,14 +34,13 @@ body {
     width: auto;
     padding: 20px;
     margin: auto;
-    width: 350px;
+    width: 250px;
     margin-top: 10%;
 }
 
 img {
     border-radius: 15px;
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
     object-fit: contain;
 }
 
@@ -45,14 +48,13 @@ img {
 .intro {
     font-weight: 700;
     color: hsl(218, 44%, 22%);
-    font-size: 20px;
     text-align: center;
 }
 
 .instructions {
     font-weight: 400;
     color: hsl(220, 15%, 55%);
-    font-size: 15px;
+    font-size: 1rem;
     text-align: center;
 }
 
